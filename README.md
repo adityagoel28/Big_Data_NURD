@@ -12,6 +12,10 @@ This is the Python implementation for experiments in NURD: Negative-Unlabeled Le
 ## Data
 The data folder includes code for preprocessing Google and Alibaba trace data.
 
+# Alibaba trace dataset
+Alibaba trace dataset can be downloaded from - https://github.com/alibaba/clusterdata
+The Alibaba Cluster Trace Program is published by Alibaba Group. Cluster-trace-v2017 includes about 1300 machines in a period of 12 hours. The trace-v2017 firstly introduces the collocation of online services (aka long running applications) and batch workloads.
+
 ## Code
 `run_ts.py` includes implementations for the following methods:
 * Base (gb): A Basic learner trained on observed tasks and predict stragglers on unseen tasks. Use gradient boosting tree model.
