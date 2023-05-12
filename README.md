@@ -12,6 +12,14 @@ This is the Python implementation for experiments in NURD: Negative-Unlabeled Le
 ## Data
 The data folder includes code for preprocessing Google and Alibaba trace data.
 
+Google trace data is a collection of data that is collected by Google's infrastructure. This data can be used to track the performance of Google's services, identify bottlenecks, and improve the overall user experience.
+
+The trace data is collected from a variety of sources, including:
+
+* Applications: Google's applications, such as Gmail, YouTube, and Google Search, generate trace data that can be used to track the performance of these applications.
+* Infrastructure: Google's infrastructure, such as data centers and networks, also generate trace data that can be used to track the performance of these systems.
+* Users: Google's users also generate trace data, such as the websites they visit, the videos they watch, and the searches they perform.
+
 ## Code
 `run_ts.py` includes implementations for the following methods:
 * Base (gb): A Basic learner trained on observed tasks and predict stragglers on unseen tasks. Use gradient boosting tree model.
